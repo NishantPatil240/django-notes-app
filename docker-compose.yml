@@ -13,7 +13,7 @@ services:
       - notes-app-nw
 
   django_app:
-    image: "nishantdp240/django_app:latest"
+    image: "nishantdp240/notes-app:latest"
     container_name: "django_cont"
     ports:
       - "8000:8000"
